@@ -53,3 +53,4 @@ To learn React, check out the [React documentation](https://reactjs.org/).
    Note: If you've already created your app, you can add TypeScript to an existing project - `npm install --save typescript @types/node @types/react @types/react-dom @types/jest` then rename all your files to .tsx
 - To add Sass - `npm install sass` then you can rename App.css to App.scss
    - note look into css preprocessing and prettier and such ... 6 high vulnerabilities
+- To run - `npm start`
