@@ -44,3 +44,12 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
+
+
+# Jess's Process
+- Create app...
+   - without Typescript `npx create-react-app my-app`
+   - with Typescript `npx create-react-app my-app --template typescript`
+   Note: If you've already created your app, you can add TypeScript to an existing project - `npm install --save typescript @types/node @types/react @types/react-dom @types/jest` then rename all your files to .tsx
+- To add Sass - `npm install sass` then you can rename App.css to App.scss
+   - note look into css preprocessing and prettier and such ... 6 high vulnerabilities
