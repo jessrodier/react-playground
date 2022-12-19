@@ -1,6 +1,6 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.scss';
+import React from "react";
+import logo from "./assets/img/logo.svg";
+import "./App.scss";
 
 function App() {
   return (
@@ -8,7 +8,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.tsx</code> and save to reload.
+          Edit <code>src/App.tsx</code> and save to reload...
         </p>
         <a
           className="App-link"
@@ -19,6 +19,20 @@ function App() {
           Learn React
         </a>
       </header>
+      <div className="main">
+        <div className="buttons">
+          <button className="button is-primary">Primary</button>
+          <button className="button is-link">Link</button>
+          <button className="button is-info">Info</button>
+          <button className="button is-success">Success</button>
+          <button className="button is-warning">Warning</button>
+          <button className="button is-danger">Danger</button>
+          <button className="button is-black">Black</button>
+          <button className="button is-white">White</button>
+          <button className="button is-dark">Dark</button>
+          <button className="button is-light">Light</button>
+        </div>
+      </div>
     </div>
   );
 }
